@@ -1,0 +1,213 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* === PÁGINA INDEX === */
+.title-h1 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  text-align: center; }
+
+h1 {
+  font-family: 'Italianno', cursive;
+  color: #EBA83A; }
+
+.card-title {
+  font-size: 70px;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.card-body p {
+  display: flex;
+  justify-content: center; }
+
+.card-text-index {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  text-align: center; }
+
+.card-img-top {
+  width: 70%;
+  margin: auto; }
+
+/* === PÁGINA PASTAS === */
+.fw-light {
+  font-size: 70PX; }
+
+.lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+.titulo-img {
+  font-family: 'Italianno', cursive;
+  font-size: 50px; }
+
+.card-text {
+  font-family: 'Roboto', sans-serif; }
+
+/* === PÁGINA PROMOCIONES === */
+.titulo-lista {
+  text-align: center;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  font-size: 50px;
+  padding: 20px 0px; }
+
+.titulo-promo-1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  text-align: center;
+  font-size: 70px;
+  padding: 20px 0px; }
+
+.subtitulo-promo-1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0px; }
+
+.titulo-promo-2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  text-align: center;
+  font-size: 70px;
+  padding: 20px 0px;
+  margin-top: 40px; }
+
+.subtitulo-promo-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0px; }
+
+.slide {
+  margin-top: 50px; }
+
+.ir-arriba {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  padding: 30px; }
+
+/* === PAGINA NOSOTROS === */
+.titulo-nosotros {
+  display: flex;
+  justify-content: center;
+  font-size: 80PX;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  margin-top: 30px; }
+
+.nosotros-texto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 40px 0px;
+  text-align: center; }
+
+.sucursales .sucursales-title {
+  font-size: 70PX;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  display: flex;
+  justify-content: center;
+  padding: 30px; }
+
+/* === PÁGINA CONTACTO === */
+.titulo-recibi {
+  font-size: 70PX;
+  font-family: 'Italianno', cursive;
+  color: #EBA83A;
+  padding: 20px 0px;
+  margin-top: 40px; }
+
+.info-recibi {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 40px 0px; }
+
+/* FOOTER */
+footer {
+  position: absolute;
+  height: auto;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+  color: black; }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.footer-container h3 {
+  font-family: 'Italianno', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  margin-top: 20px; }
+
+.footer-container p {
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 18px; }
+
+.redes-sociales {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0; }
+
+.redes-sociales li {
+  margin: 0 10px; }
+
+.redes-sociales a {
+  text-decoration: none;
+  color: black; }
+
+.redes-sociales a i {
+  font-size: 1.1rem; }
+
+.redes-sociales a:hover i {
+  color: #386fe6; }
+
+.footer-bottom {
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center; }
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize; }
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200; }
+
+/* 
+.navbar{
+    background: rgb(34, 64, 74);
+
+}
+ */
